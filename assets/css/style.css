@@ -1272,7 +1272,7 @@ h6 {
 
 .owl-carousel-fullwidth .item,
 .owl-carousel-fullwidth .fh5co-owl-text-wrap {
-  height: 800px;
+  height: 835px;
   display: table;
   width: 100%;
 }
@@ -1281,7 +1281,7 @@ h6 {
 
   .owl-carousel-fullwidth .item,
   .owl-carousel-fullwidth .fh5co-owl-text-wrap {
-    height: 20px;
+    height: 100px;
     padding: 5em 0 5em;
   }
 
@@ -1296,6 +1296,7 @@ h6 {
   background-size: cover;
   background-position: top left;
   position: relative;
+  margin-top: -50px;
 }
 
 .owl-carousel-fullwidth .item .overlay {
@@ -1319,7 +1320,6 @@ h6 {
 .owl-carousel-fullwidth .item .iphone-image .iphone {
   float: right;
   text-align: right;
-
   margin-top: 160px;
 }
 
@@ -1336,13 +1336,13 @@ h6 {
 
 .owl-carousel-fullwidth .item .iphone-image .iphone img {
   max-width: 100%;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .owl-carousel-fullwidth .item .fh5co-owl-text {
   display: table-cell;
   vertical-align: middle;
-  z-index: 10;
+  /* z-index: 10; */
   position: relative;
 }
 
