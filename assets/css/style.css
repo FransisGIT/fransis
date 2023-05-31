@@ -958,6 +958,14 @@ h6 {
   .fh5co-nav-toggle {
     display: block;
   }
+
+  .iphone-image {
+    margin-top: 135px;
+  }
+
+  .container1 {
+    margin-top: 100px;
+  }
 }
 
 .person {
