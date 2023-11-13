@@ -1,7 +1,11 @@
 @font-face {
-  font-family: 'icomoon';
+  font-family: "icomoon";
   src: url("../fonts/icomoon/icomoon.eot?srf3rx");
-  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+      format("embedded-opentype"),
+    url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+    url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+    url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -19,7 +23,6 @@
 .float-left {
   float: left;
 }
-
 
 .icon-size-1 {
   font-size: 32px;
@@ -97,7 +100,6 @@
   margin-left: auto;
   padding-left: auto;
   padding-right: auto;
-  margin-bottom: 30px;
 }
 
 .certificate:hover {
@@ -120,7 +122,6 @@
   color: white;
 }
 
-
 body {
   font-family: "Source Sans Pro", Arial, sans-serif;
   font-weight: 400;
@@ -131,7 +132,6 @@ body {
   background: #fff;
   height: 100%;
   position: relative;
-
 }
 
 a {
@@ -423,9 +423,6 @@ h6 {
   bottom: 0;
 }
 
-
-
-
 @media screen and (max-width: 768px) {
   .section-heading h2 {
     font-size: 30px;
@@ -461,7 +458,6 @@ h6 {
 }
 
 @media screen and (max-width: 480px) {
-
   #fh5co-our-services,
   #fh5co-about-us,
   #fh5co-features,
@@ -547,7 +543,7 @@ h6 {
   border-radius: 50%;
 }
 
-#fh5co-testimonials .box-testimony blockquote .quote>span {
+#fh5co-testimonials .box-testimony blockquote .quote > span {
   display: table-cell;
   vertical-align: middle;
 }
@@ -570,7 +566,7 @@ h6 {
 }
 
 #fh5co-pricing .price-box {
-  border: 2px solid #ECEEF0;
+  border: 2px solid #eceef0;
   text-align: center;
   padding: 30px;
   -webkit-border-radius: 5px;
@@ -684,12 +680,12 @@ h6 {
   text-align: center;
 }
 
-#fh5co-our-services .box .icon>span {
+#fh5co-our-services .box .icon > span {
   display: table-cell;
   vertical-align: middle;
 }
 
-#fh5co-our-services .box .icon>span i {
+#fh5co-our-services .box .icon > span i {
   font-size: 40px;
   color: #fff !important;
   margin: 0;
@@ -787,8 +783,6 @@ h6 {
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
   border-radius: 30px;
-
-
 }
 
 @media screen and (max-width: 480px) {
@@ -803,7 +797,6 @@ h6 {
 }
 
 @media screen and (max-width: 480px) {
-
   #fh5co-press .fh5co-press-item .fh5co-press-text,
   #fh5co-press .fh5co-press-item .fh5co-press-img {
     height: inherit;
@@ -827,7 +820,11 @@ h6 {
   position: relative;
 }
 
-#fh5co-press .fh5co-press-item .fh5co-press-text .fh5co-press-title .fh5co-border {
+#fh5co-press
+  .fh5co-press-item
+  .fh5co-press-text
+  .fh5co-press-title
+  .fh5co-border {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -878,20 +875,20 @@ h6 {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   width: 25px;
   height: 3px;
   color: #6173f4;
-  font: bold 14px/.4 Helvetica;
+  font: bold 14px/0.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
   background: #6173f4;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
 
 .fh5co-nav-toggle i::before,
 .fh5co-nav-toggle i::after {
-  content: '';
+  content: "";
   width: 25px;
   height: 3px;
   background: #6173f4;
@@ -999,7 +996,6 @@ h6 {
 #footer {
   padding: 0px 0;
   color: #7f7f7f;
-
 }
 
 #footer-1 {
@@ -1215,8 +1211,16 @@ h6 {
   color: #fff;
 }
 
-.owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-next:hover i,
-.owl-carousel-fullwidth.fh5co-light-arrow .owl-controls .owl-nav .owl-prev:hover i {
+.owl-carousel-fullwidth.fh5co-light-arrow
+  .owl-controls
+  .owl-nav
+  .owl-next:hover
+  i,
+.owl-carousel-fullwidth.fh5co-light-arrow
+  .owl-controls
+  .owl-nav
+  .owl-prev:hover
+  i {
   color: #fff;
 }
 
@@ -1286,13 +1290,11 @@ h6 {
 }
 
 @media screen and (max-width: 768px) {
-
   .owl-carousel-fullwidth .item,
   .owl-carousel-fullwidth .fh5co-owl-text-wrap {
     height: 100px;
     padding: 5em 0 5em;
   }
-
 }
 
 .owl-carousel-fullwidth .fh5co-owl-text-wrap {
@@ -1322,7 +1324,6 @@ h6 {
 
 .owl-carousel-fullwidth .item .iphone-image {
   position: relative;
-
 }
 
 .owl-carousel-fullwidth .item .iphone-image .iphone {
@@ -1448,8 +1449,8 @@ h6 {
 }
 
 .fh5co-animated {
-  -webkit-animation-duration: .3s;
-  animation-duration: .3s;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
